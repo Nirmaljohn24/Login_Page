@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+
+.login_container{
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.login_container h2{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(22, 103, 103);
+}
+
+.form_grp{
+    padding: 10px;
+}
+
+.Login_btn{
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form_grp {
+    margin-bottom: 15px;
+  }
+  .form_grp label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  .form_grp input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+  }
+  .Login_btn{
+    
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .Login_btn:hover {
+    background-color: #0056b3;
+  }
+  .forget {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  .forget:hover {
+    text-decoration: underline;
+  }
+
+  .last_step{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .create_acnt{
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+
+  .create{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    
+  }
+
+  .create:hover{
+    text-decoration: underline white;
+    color: #ffffff;
+    background-color: #007bff;
+  }
+
+  .signup_container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+  @media (max-width: 768px) {
+    .login_container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .login_container h2 {
+        font-size: 32px;
+    }
+
+    .form_grp input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .Login_btn {
+        margin-right: 40px;
+        width: 80%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .forget {
+        font-size: 16px;
+    }
+
+    .last_step {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .create {
+        width: 100%;
+        font-size: 14px;
+    }
+}
